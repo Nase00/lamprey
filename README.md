@@ -4,12 +4,12 @@ perfectly replicating the actions of physically pressing your computer's power a
 
 # How it works
 
-Most standard desktop computer motherboards have a set of front panel headers exposed for variation purposes.
-Among these are pairs of pins used to boot and reset the system. When a motherboard is installed in a case,
-wires from the power and reset buttons are plugged directly into these headers. Each button has a + and - end,
-and the act of pressing a button simply connects these two ends.
+Most standard desktop computer motherboards have a set of front panel headers exposed for various purposes.
+Among these are pins used to boot and reset the system. When a motherboard is installed in a case,
+wires from the power and reset buttons are plugged directly into these headers. Each button has a + and - pin,
+and the act of pressing a button simply closes the circuit between them.
 
-This project consists of a WiFi-enabled microcontroller connected to these headers, allowing the capability to remotely initiate a
+This project consists of a WiFi-enabled microcontroller spliced between these headers, giving the capability to remotely initiate a
 [cold boot](https://en.wikipedia.org/wiki/Reboot_(computing)#Cold_vs._warm_reboot) or
 [hard reboot](https://en.wikipedia.org/wiki/Reboot_(computing)#Hard_reboot).
 The only requirement for it to function is that your system's PSU is switched on and plugged in.
